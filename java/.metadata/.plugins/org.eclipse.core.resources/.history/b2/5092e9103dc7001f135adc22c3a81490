@@ -1,0 +1,31 @@
+package sub1;
+
+/*
+날짜 : 2024/12/31
+이름 : 오재영
+내용 : ch02.Java 변수와 연산자
+*/
+
+public class VariableTest {
+	
+	public static void main(String[] args) {
+		
+		//변수
+		int a = 3;
+		int b = 7;
+		
+		System.out.println("a : " + a);
+		System.out.println("b : " + b);
+		System.out.println();
+		
+		a = 5;
+		b = 9;
+		
+		System.out.println("a : " + a);
+		System.out.println("b : " + b);
+		
+		
+		//상수
+		
+	}
+}

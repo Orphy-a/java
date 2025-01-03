@@ -1,0 +1,31 @@
+package sub4;
+
+/*
+날짜 : 2025/01/03
+이름 : 오재영
+내용 : Java 반복문 while 실습하기
+*/
+
+public class WhileTest {
+	public static void main(String[] args) {
+		
+		//1부터 10까지 합
+		
+		int i = 1;
+		int sum = 0;
+		
+		while(i<=10) {
+			sum += i;
+			i++;
+		}
+		
+		System.out.println("1부터 10까지 합 : " + sum);
+		
+		//do-while
+		
+		//break
+		
+		//continue
+		
+	}
+}

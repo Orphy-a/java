@@ -1,0 +1,54 @@
+package sub3;
+
+/*
+날짜 : 2025/01/02
+이름 : 오재영
+내용 : Java 조건문 if 실습하기
+*/
+
+public class IfTest {
+	public static void main(String[] args) {
+		
+		//if
+		int num1 = 1;
+		int num2 = 2;
+		
+		System.out.println(num1);
+		System.out.println(num2);
+		System.out.println();
+		
+		if(!(num1 == num2)) {
+			System.out.println("2개의 숫자가 서로 다릅니다.");
+		}
+		
+		if(num1 < num2) {
+			System.out.println("num1의 숫자가 num2의 숫자보다 작다.");
+		}
+		
+		if(num1 > num2) {
+			System.out.println("num1의 숫자가 num2의 숫자보다 작다."); //조건이 거짓이므로 실행 x
+		}
+		
+		if(num1 > 0) {
+			if(num2 > 1) {
+				System.out.println("num1은 0보다 크고 num2는 1보다 크다.");
+			}
+		}
+		
+		if((num1 > 0) && (num2 > 1)) {
+				System.out.println("num1은 0보다 크고 num2는 1보다 크다.");
+			}
+		
+		
+		
+		System.out.println();
+		
+		//if ~ else
+		int num4 = 4;
+		int num5 = 5;
+		
+		
+		//if ~ else if ~ else
+		
+	}
+}

@@ -1,0 +1,13 @@
+package ch02;
+
+public class test {
+	
+	public static void main(String[] args) {
+		
+		int a= 0;
+		char b = '가';
+		String c = "나";
+		
+	}
+
+}

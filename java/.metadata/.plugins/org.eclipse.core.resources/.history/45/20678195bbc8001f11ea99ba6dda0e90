@@ -1,0 +1,12 @@
+package ch04.sec03;
+
+public class SwitchVlaueExample {
+	public static void main(String[] args) {
+		
+		String grade = "b";
+		
+		int score = switch(grade) {
+		
+		}
+	}
+}
