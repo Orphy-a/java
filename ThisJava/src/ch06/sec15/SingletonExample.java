@@ -11,6 +11,5 @@ public class SingletonExample {
 		Singleton obj1 = Singleton.getInstance();
 		Singleton obj2 = Singleton.getInstance();
 		
-		
 	}
 }
