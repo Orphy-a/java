@@ -1,21 +1,31 @@
 package sd;
 
+import java.util.Scanner;
+
 public class asdfzxc {
 	public static void main(String[] args) {
 		
-		int height = 5;
+		Scanner sc = new Scanner(System.in);
 		
-		for(int i = 1 ; i<=height ; i++) {
-			for(int j = 1 ; j<=height-i ; j++) {
-				System.out.print(" ");
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		
+		if(a==0 && b>=45) {
+			a = 24;
+			if(b>=45) {
+				a-=1;
+				b= 60+(b-45);
 			}
-			
-			for(int k = 1 ; k <= i; k++) {
-				System.out.print("*");
+		}else {
+			if(b>=45) {
+				b=b-45;
+			}else{
+				a-=1;
+				b= 60+(b-45);
 			}
-			System.out.println();
 		}
 		
+		System.out.println(a+ " " +b);
 		
 	}
 }
