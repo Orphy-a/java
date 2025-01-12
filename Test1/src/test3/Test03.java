@@ -32,6 +32,7 @@ public class Test03 {
 		Car sonata = null;
 		Car bmw = null;
 		
+		
 		sonata = new Car("현대", "소나타", 3000);
 		bmw = new Car("BMW", "520D", 5000);
 		

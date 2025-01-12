@@ -1,7 +1,5 @@
 package test3;
 
-import test2pratice.test01;
-
 public class Test01 {
 	
 	private String name;
@@ -22,11 +20,11 @@ public class Test01 {
 	public static void main(String[] args) {
 		
 		Test01 kim = new Test01("김유신", 23);
-		Test01 lee = new Test01("이순신", 31);
+		Test01 lee = new Test01("이유신", 20);
 		
 		kim.show();
 		lee.show();
-	
+		
 		
 	}
 	

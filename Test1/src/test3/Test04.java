@@ -23,13 +23,17 @@ class Student{
 		System.out.println("=============");
 	}
 	
-	
+    public static void setStudentID(int id) {
+        studentID = id;
+    }
 	
 	
 }
 
 public class Test04 {
 	public static void main(String[] args) {
+		
+		 Student.setStudentID(20201000);
 		
 		Student kim = new Student("김유신", "국문과", 1);
 		Student lee = new Student("이순신", "경제학과", 1);

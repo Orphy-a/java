@@ -29,7 +29,7 @@ public class StaticTest {
 	
 	
 		//싱글톤 실습
-		Calc c1 = Calc.getInstance();
+		Calc c1 = Calc.getInstance(); //객체생성
 		
 		int result = c1.puls(1, 2);
 		System.out.println("result : " + result);
