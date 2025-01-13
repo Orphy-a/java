@@ -2,6 +2,9 @@ package test3;
 
 class Adder{
 	private static Adder instance = new Adder();
+	private int x;
+	private int y;
+	
 	
 	public static Adder getinstance() {
 		return instance;
@@ -12,9 +15,7 @@ class Adder{
 	private Adder(int value) {
 		y += value;
 	}
-	
-	private int x;
-	private int y;
+
 	
 	public void add(int x, int y) {
 		this.x += x; //x : 1
@@ -56,19 +57,24 @@ public class Test06 {
 		Adder.add(a1);
 		a1.show();
 		
-		/* 1. Adder.add(1, 3) 호출
-		 * - a1 객체는 전달되지만 메서드 안에서 실제로 사용 x
-		 * - new Adder(3)이 호출
-		 * 
-		 * 2. 새로운 Adder 객체 생성
-		 * -  	
-		 * 	*/ 
 		
 		
 		a1 = Adder.add(a1,  3); 
 		a1.show();
 		
-
+		
+		/* 1. Adder.add(1, 3) 호출
+		 * - a1 객체는 전달되지만 메서드 안에서 실제로 사용 x
+		 * - new Adder(3)이 호출
+		 * 
+		 * 2. 새로운 Adder 객체 생성
+		 * - private Adder(int value) 생성자 호출
+		 * - y += value를 실행하여 새 객체의 y값을 3으로 초기화
+		 * 3. 다시 a1에 재할당 	
+		 * 
+		 * 
+		 * 	*/ 
+		
 		
 		
 	}
