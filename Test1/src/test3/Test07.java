@@ -18,6 +18,7 @@ class Customer{
 	}
 	
 	
+	
 	public int calcPrice(int price) {
 		point += price * pointRatio;
 		return price;
@@ -70,3 +71,5 @@ public class Test07 {
 		
 	}
 }
+
+

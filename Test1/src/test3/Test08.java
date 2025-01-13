@@ -48,7 +48,7 @@ class Computer extends Product{
 public class Test08 {
 	public static void main(String[] args) {
 		
-		Product p1 = new Television("가전", 100);
+		Product p1 = new Television("텔레비전", 100);
 		Product p2 = new Computer("컴퓨터", 150);
 		
 		p1.info();
@@ -58,3 +58,6 @@ public class Test08 {
 	
 	
 }
+
+
+
