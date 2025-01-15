@@ -43,5 +43,18 @@ public class Example1 {
 		
 		
 		
+		
+		Map<Integer, Mango> mang3 = new HashMap<Integer, Mango>();
+		
+		
+		mang3.put(201, new Mango("국산", 1000));
+		mang3.put(202, new Mango("미국", 2000));
+		mang3.put(203, new Mango("일본", 3000));
+		
+		fruitlist.add(mang3);
+		
+		
+		System.out.println(fruitlist);
+		
 	}
 }
