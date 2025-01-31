@@ -5,7 +5,7 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry excluding="lib/" kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/lotte6/Desktop/workspace/java/CRUDTest/lib/mysql-connector-j-8.0.33.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/lotte6/Desktop/workspace/java/ShopProject/lib/mysql-connector-j-8.0.33.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

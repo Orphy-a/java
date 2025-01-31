@@ -1,3 +1,6 @@
-/test/
-/testCar/
-/testPoint/
+/service/
+/controller/
+/dao/
+/entity/
+/db/
+/main/

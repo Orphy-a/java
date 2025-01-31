@@ -21,6 +21,7 @@ public class User1Dao {
 	public static User1Dao getInstance() {
 		return instance;
 	}
+	
 	private User1Dao() {}
 	
 	// DB정보
